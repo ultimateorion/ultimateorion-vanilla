@@ -1,0 +1,24 @@
+Construct {
+
+	CONSOLE.Log(
+		message: "init begin"
+	);
+	Message(
+		message: "Initializing game..."
+	);
+
+	SetGenerator(
+		generator: SpawnSunsEverywhere
+	);
+	SetPlayableSpecies(
+		species: [ Humans ]
+	);
+
+	Message(
+		message: "Game initialization complete!"
+	);
+	CONSOLE.Log(
+		message: "init end"
+	);
+
+}

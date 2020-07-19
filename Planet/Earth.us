@@ -1,0 +1,6 @@
+Construct {
+	
+	^size = 1;
+	^type = "Terran";
+	
+}

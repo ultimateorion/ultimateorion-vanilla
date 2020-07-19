@@ -1,0 +1,14 @@
+GenerateArea {
+
+	star = ~Star( Sun );
+	_universe.AddStar(
+		x: _x,
+		y: _y,
+		star: star,
+	);
+	planet = ~Planet( Earth );
+	star.AddPlanet(
+		planet: planet,
+	);
+	
+}

@@ -1,0 +1,8 @@
+Construct {
+
+	^happyness = MATH.Random(
+		min: 0.6,
+		max: 0.8
+	);
+
+}

@@ -1,0 +1,22 @@
+Construct {
+
+	^size = MATH.Random(
+		min: 0.7,
+		max: 0.9
+	);
+	^color = "yellow";
+
+}
+
+Render {
+
+	_r.SetFillColor(
+		color: ^color
+	);
+	_r.Circle(
+		x: 0,
+		y: 0,
+		radius: ^size
+	);
+
+}
